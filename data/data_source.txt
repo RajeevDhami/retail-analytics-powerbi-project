@@ -1,1 +1,14 @@
+Dataset Source:
+https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset
 
+Description:
+This dataset contains online retail transactions from a UK-based e-commerce store.
+
+Usage in Project:
+- Imported using Python (Jupyter Notebook)
+- Cleaned and transformed
+- Loaded into SQL Server for analysis
+- Connected to Power BI for dashboard creation
+
+Note:
+Dataset is not uploaded due to GitHub file size limitations (>25MB).
