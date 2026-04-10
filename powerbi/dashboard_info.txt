@@ -1,0 +1,17 @@
+Power BI Dashboard
+
+This repository includes a Power BI dashboard (.pbix file).
+
+Note:
+GitHub does not support previewing .pbix files due to file size limitations.
+
+To view the dashboard:
+1. Download the .pbix file
+2. Open in Power BI Desktop
+
+Dashboard Features:
+- Revenue analysis
+- Customer segmentation
+- Pareto analysis
+- Cohort analysis
+- Row-Level Security (RLS)
