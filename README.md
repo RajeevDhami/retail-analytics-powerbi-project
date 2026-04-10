@@ -70,6 +70,23 @@ This project analyzes an online retail dataset to uncover:
 
 ---
 
+## 📊 Power BI Dashboard
+
+The dashboard was developed using Power BI and includes:
+
+- Revenue trends and KPIs  
+- Customer segmentation  
+- Pareto analysis (top products contribution)  
+- Cohort analysis (customer retention)  
+- Row-Level Security (RLS) implementation  
+
+📥 To view the dashboard:
+Download the `.pbix` file from the `powerbi` folder and open it in Power BI Desktop.
+
+⚠️ Note: GitHub does not support previewing `.pbix` files due to size limitations.
+
+---
+
 ## 📈 Key Insights
 
 - Revenue shows high volatility → seasonal pattern observed  
