@@ -1,111 +1,115 @@
 # 🛒 Retail Analytics Power BI Project
 
+End-to-end retail analytics project using **Python, SQL, and Power BI** to generate actionable business insights.  
+This project demonstrates data cleaning, transformation, analysis, and dashboard creation with **Row-Level Security (RLS)**.
+
+---
+
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end retail analytics workflow using Python, SQL, and Power BI. It covers data extraction, cleaning, transformation, analysis, and dashboard creation with advanced features like incremental refresh and dynamic row-level security (RLS).
+This project analyzes an online retail dataset to uncover:
+
+- Revenue trends over time
+- Customer segmentation (High / Medium / Low value)
+- Product performance (Pareto Analysis)
+- Customer retention & cohort behavior
+- Geographic revenue distribution
 
 ---
 
-## 🧰 Tools & Technologies
+## 🛠️ Tools & Technologies
 
-* Python (Pandas, Jupyter Notebook)
-* SQL Server (Data cleaning & analysis)
-* Power BI (Dashboard & visualization)
-* Power Query (ETL)
-* DAX (Measures & KPIs)
-
----
-
-## 📂 Project Structure
-
-Retail-Analytics-Project/
-│
-├── data/
-├── notebooks/
-├── sql/
-├── powerbi/
-├── screenshots/
-└── README.md
+- **Python (Pandas, Jupyter Notebook)** → Data Cleaning
+- **SQL (SQL Server)** → Data Transformation & Analysis
+- **Power BI** → Dashboard & Visualization
+- **DAX** → Measures & KPIs
+- **RLS (Row-Level Security)** → Data access control
 
 ---
 
-## 🔄 Workflow
+## 🔄 Project Workflow
 
-### 1️⃣ Data Collection
-
-* Dataset sourced from Kaggle
-* Imported using Python (JSON format)
-
-### 2️⃣ Data Cleaning (Python)
-
-* Removed null values
-* Handled duplicates
-* Converted data types
-
-### 3️⃣ SQL Analysis
-
-* Data validation & cleaning
-* KPI calculations
-* Business queries (Top products, customers, segmentation, Pareto)
-
-### 4️⃣ Power BI Dashboard
-
-* Revenue trends
-* Customer segmentation
-* Product performance
-* Cohort analysis
-
-### Advanced Features:
-
-* Incremental Refresh
-* Dynamic Row-Level Security (RLS)
+1. Data imported from Kaggle dataset  
+2. Data cleaning performed in Python  
+3. Cleaned data loaded into SQL Server  
+4. SQL used for:
+   - Data validation
+   - Duplicate removal
+   - KPI calculations  
+5. Power BI used for:
+   - Data modeling
+   - Dashboard creation
+   - RLS implementation  
 
 ---
 
-## 📊 Key Insights
+## 📊 Dashboard Screenshots
 
-* Revenue follows Pareto distribution at product level
-* Few products contribute majority of revenue
-* Customer revenue is more distributed
-* High-value customers drive major revenue
-* Strong seasonal trends
+### 🔹 Main Dashboard
+![Dashboard](screenshots/dashboard_overview.png)
+
+---
+
+### 🔹 Pareto Analysis (Top Products)
+![Pareto](screenshots/pareto_analysis.png)
+
+---
+
+### 🔹 Customer Cohort Analysis
+![Cohort](screenshots/cohort_analysis.png)
+
+---
+
+### 🔹 Revenue Retention Analysis
+![Revenue Cohort](screenshots/revenue_cohort_analysis.png)
+
+---
+
+### 🔹 Row-Level Security (RLS)
+![RLS](screenshots/rls_demo.png)
+
+---
+
+## 📈 Key Insights
+
+- Revenue shows high volatility → seasonal pattern observed  
+- Majority of revenue comes from **high-value customers**  
+- Small set of products drives large portion of revenue (**Pareto Principle**)  
+- Customer retention drops significantly after first purchase  
+- UK contributes major share → geographic dependency  
+
+---
+
+## 🚀 Business Recommendations
+
+- Focus on retaining high-value customers via loyalty programs  
+- Improve onboarding experience to reduce early churn  
+- Optimize inventory for top-performing products  
+- Expand operations beyond dominant regions  
+- Use targeted campaigns for low-performing months  
 
 ---
 
 ## 🔐 Row-Level Security (RLS)
 
-* Implemented dynamic RLS using user email mapping
-* Users can only view data for assigned country
+Dynamic RLS implemented using user email mapping:
+
+- Users can only view data for their assigned country  
+- Improves data security and personalization  
 
 ---
 
-## ⚡ Incremental Refresh
+## 📂 Dataset
 
-* Configured using RangeStart & RangeEnd
-* Improves performance by refreshing only recent data
-
----
-
-## 📸 Dashboard Screenshots
-
-![Overview](screenshots/dashboard_overview.png)
-![Pareto](screenshots/pareto_analysis.png)
-![Cohort](screenshots/cohort_analysis.png)
-![Revenue Cohort](screenshots/revenue_cohort_analysis.png)
-![RLS](screenshots/rls_demo.png)
-
----
-
-## 🚀 Key Learnings
-
-* End-to-end data analytics workflow
-* SQL optimization & business analysis
-* Power BI advanced features (RLS, Incremental Refresh)
-* Data storytelling
+Dataset sourced from Kaggle:  
+https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset
 
 ---
 
 ## 👨‍💻 Author
 
-Rajeev Dhami
+**Rajeev Dhami**
 
+---
+
+⭐ If you found this project useful, consider giving it a star!
