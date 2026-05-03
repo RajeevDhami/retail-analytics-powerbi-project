@@ -126,6 +126,7 @@ https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset
 ## 👨‍💻 Author
 
 **Rajeev Dhami**
+📌 Aspiring Data Analyst | Power BI Enthusiast | SQL & Python Learner
 
 ---
 
