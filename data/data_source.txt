@@ -5,7 +5,7 @@ Description:
 This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
 
 Usage in Project:
-- Used Only 2010-2011 dataset not the complete dataset
+- Used Only January 1, 2010 - November 30, 2011 dataset
 - Imported using Python (Jupyter Notebook)
 - Cleaned and transformed
 - Loaded into SQL Server for analysis
